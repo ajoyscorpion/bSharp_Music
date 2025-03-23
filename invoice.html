@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 50px;
+        background-color: rgb(226, 226, 226);
+        color: rgb(0, 0, 0);
+      }
+      h1 {
+        text-align: center;
+      }
+      .invoice-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .invoice-details {
+        margin-bottom: 30px;
+      }
+      .invoice-details div {
+        margin-bottom: 5px;
+      }
+      .amount {
+        font-size: 20px;
+        font-weight: bold;
+        color: green;
+      }
+      table, th, td {
+        border: 1px solid black;    
+      }
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+      } 
+        .invoice-details p {
+            font-size: 18px;
+            margin-bottom: 10px; /* Adjust this value for more or less spacing */
+            line-height: 0.9; /* Controls the space between lines within each <p> */
+        }
+        .background{
+            background-color: rgb(100, 99, 99);
+            width: 300px;
+            height: 700px;
+            position: absolute;
+            z-index: -1;
+        }
+        @media print {
+          .invoice-header img {
+            display: inline;
+          }
+          .paid {
+            display: inline;
+          }
+        }
+    </style>
+  </head>
+  <body class="">
+    <!-- //<div class="background"></div> -->
+    <div class="invoice-header">
+      <img src="./logo.png" alt="" style="width: 150px" />
+      <h1>B# Music Conservatory</h1>
+    </div>
+
+    <hr>
+
+    <div style="display:flex; justify-content:space-between;font-size:13px;margin-top: 30px;">
+      <p>
+        <strong>Invoice Number : 6327</strong>
+      </p>
+      <p>
+        <strong>Date : 23/7/2024</strong>
+      </p>
+    </div>
+
+    <div class="invoice-details">
+        <div class="col-lg-8 d-flex flex-column">
+            <p><strong>Name:</strong> Paulson Mathew</p>
+            <p><strong>Student ID:</strong> BID6282</p>
+            <p><strong>Course:</strong> Piano</p> 
+        </div>    
+    </div>
+
+    <hr>
+
+    <div style="display:flex ; justify-content:space-around">
+        <div style="text-align:center"><strong>Month,Year</strong></div>
+        <div style="text-align:center"><strong>Amount</strong></div>
+    </div>
+
+    <hr>
+
+    <div style="display:flex ; justify-content:space-around">
+        <div style="text-align:center"><strong>October 2024</strong></div>
+        <div style="text-align:center"><strong>1200</strong></div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+      <p style="font-size: 16px; font-weight: 700">
+        Thank you for your payment!
+      </p>
+      <div style="font-size: 14px">
+        <div >For any queries, please contact us:</div>
+        <div>Email: bsharpmusic@gmail.com</div>
+        <div>Phone: +91 8113000923</div>
+      </div>
+    </div>
+    <img class="paid" src="./paid.png" alt="" style="margin-bottom: 100px;">
+  </body>
+</html>
