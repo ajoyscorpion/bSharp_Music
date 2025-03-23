@@ -1,3 +1,0 @@
-b-natural-frontend - https://github.com/ajoyscorpion/bsharp-frontend.git
-b-sharp-backend - https://github.com/ajoyscorpion/bsharp-server.git
-b-natural-server-side - https://github.com/ajoyscorpion/b-natural-server-side.git
