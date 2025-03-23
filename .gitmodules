@@ -1,0 +1,9 @@
+[submodule "b-natural-frontend"]
+	path = b-natural-frontend
+	url = https://github.com/ajoyscorpion/bsharp-frontend.git
+[submodule "b-sharp-backend"]
+	path = b-sharp-backend
+	url = https://github.com/ajoyscorpion/bsharp-server.git
+[submodule "b-natural-server-side"]
+	path = b-natural-server-side
+	url = https://github.com/ajoyscorpion/b-natural-server-side.git
