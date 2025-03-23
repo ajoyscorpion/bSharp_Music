@@ -1,6 +1,6 @@
 [submodule "b-natural-frontend"]
 	path = b-natural-frontend
-	url = https://github.com/ajoyscorpion/bsharp-frontend.git
+	url = https://github.com/ajoyscorpion/b-natural-frontend.git
 [submodule "b-sharp-backend"]
 	path = b-sharp-backend
 	url = https://github.com/ajoyscorpion/bsharp-server.git
